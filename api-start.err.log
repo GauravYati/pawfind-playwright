@@ -1,0 +1,11 @@
+Could not connect to MongoDB: connect ECONNREFUSED 127.0.0.1:27017
+C:\Users\gaura\Documents\New project\pawfind-mern\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187
+          const err = new MongooseError(message);
+                      ^
+
+MongooseError: Operation `pets.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\gaura\Documents\New project\pawfind-mern\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+Node.js v24.15.0
